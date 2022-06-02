@@ -12,26 +12,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.google.zxing.Result;
-import com.karumi.dexter.Dexter;
-import com.karumi.dexter.PermissionToken;
-import com.karumi.dexter.listener.PermissionDeniedResponse;
-import com.karumi.dexter.listener.PermissionGrantedResponse;
-import com.karumi.dexter.listener.PermissionRequest;
-import com.karumi.dexter.listener.single.PermissionListener;
 
 
  public class MainActivity extends AppCompatActivity{
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-        setSupportActionBar((Toolbar)findViewById(R.id.toolbar));
+//        setSupportActionBar((Toolbar)findViewById(R.id.toolbar));
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;
 
